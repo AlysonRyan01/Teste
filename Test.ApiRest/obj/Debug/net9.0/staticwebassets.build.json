@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Bx6ihBGf73J6/5A2qkfflJDWt6vk7Frs3S2jC239ZBo=",
+  "Source": "Test.ApiRest",
+  "BasePath": "_content/Test.ApiRest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

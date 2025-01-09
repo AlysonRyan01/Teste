@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GHB/fgPvkvduMB/bIr0hm3zttDrHe3Y4idURrb1NwNs=",
+  "Source": "Test.MinimalApi",
+  "BasePath": "_content/Test.MinimalApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
