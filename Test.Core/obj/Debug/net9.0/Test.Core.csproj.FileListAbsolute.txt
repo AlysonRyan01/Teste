@@ -46,3 +46,15 @@ C:\Users\TVS'PC\Documents\MeusProjetos\Products\Test.Core\obj\Debug\net9.0\Test.
 C:\Users\TVS'PC\Documents\MeusProjetos\Products\Test.Core\obj\Debug\net9.0\refint\Test.Core.dll
 C:\Users\TVS'PC\Documents\MeusProjetos\Products\Test.Core\obj\Debug\net9.0\Test.Core.pdb
 C:\Users\TVS'PC\Documents\MeusProjetos\Products\Test.Core\obj\Debug\net9.0\ref\Test.Core.dll
+D:\GitHubRepository\Teste\Test.Core\bin\Debug\net9.0\Test.Core.deps.json
+D:\GitHubRepository\Teste\Test.Core\bin\Debug\net9.0\Test.Core.dll
+D:\GitHubRepository\Teste\Test.Core\bin\Debug\net9.0\Test.Core.pdb
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\Test.Core.AssemblyInfoInputs.cache
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\Test.Core.AssemblyInfo.cs
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\Test.Core.csproj.CoreCompileInputs.cache
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\Test.Core.sourcelink.json
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\Test.Core.dll
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\refint\Test.Core.dll
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\Test.Core.pdb
+D:\GitHubRepository\Teste\Test.Core\obj\Debug\net9.0\ref\Test.Core.dll

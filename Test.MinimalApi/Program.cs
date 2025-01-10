@@ -1,29 +1,18 @@
-using Microsoft.EntityFrameworkCore;
-using Test.Core.Handlers;
-using Test.MinimalApi.Data;
-using Test.MinimalApi.Endpoints;
-using Test.MinimalApi.Handlers;
+using Test.MinimalApi.Common.Extensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(x =>
-{
-    x.CustomSchemaIds(n => n.FullName);
-});
-
-builder.Services.AddDbContext<TestDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddTransient<IProductHandler, ProductHandler>();
+builder.AddSecurity();
+builder.AddCofiguration();
+builder.AddDataContext();
+builder.AddServices();
+builder.AddCrossOrigin();
+builder.AddDocumentation();
 
 var app = builder.Build();
+if (app.Environment.IsDevelopment())
+    app.AddDocumentation();
 
-app.UseSwagger();
-app.UseSwaggerUI();
-
-app.MapEndpoints();
-
-app.MapGet("/", () => "Rodando minimal api");
+app.AddMapEndpoints();
 
 app.Run();

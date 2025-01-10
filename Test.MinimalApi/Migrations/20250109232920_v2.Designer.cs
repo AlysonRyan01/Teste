@@ -10,8 +10,8 @@ using Test.MinimalApi.Data;
 namespace Test.MinimalApi.Migrations
 {
     [DbContext(typeof(TestDbContext))]
-    [Migration("20250109200816_v4")]
-    partial class v4
+    [Migration("20250109232920_v2")]
+    partial class v2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
